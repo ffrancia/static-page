@@ -1,7 +1,28 @@
-/*
-CSS for IDA site
-*/
-h1 {
-font-weight: bold;
-color: red;
+#headandfoot {
+	background-color:#ADAD85;
+	height:50px;
+	width:60px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+#menutop {
+	font-family:Arial;
+	font-size:13px;
+	text-align:center;
+	background-color:#CC0000;
+	height:20px;
+	width:310px;
+}
+
+#mainbox{
+	background-color:#44442E;
+	height:475px;
+	width:975px;
+}
+
+span {
+	font-size: 10px;
+	color: white;	
 }
