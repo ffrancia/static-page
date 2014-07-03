@@ -1,9 +1,11 @@
 #headandfoot {
 	background-color:#ADAD85;
-	height:50px;
-	width:60px;
-	font-size: 28px;
+	height:160px;
+	width:200px;
+	font-family:sans-serif;
+	font-size: 100px;
 	font-weight: bold;
+	text-align:center;
 	color: #CC0000;
 }
 
@@ -14,15 +16,28 @@
 	background-color:#CC0000;
 	height:20px;
 	width:310px;
+	color: white;
 }
 
-#mainbox{
+#mainbox {
 	background-color:#44442E;
 	height:475px;
 	width:975px;
 }
 
+#bar {
+	background-color:#CC0000;
+	height:10px;
+	width:975px;
+}
+
+#gray_blocks {
+	background-color:#CC0000;
+	height:10px;
+	width:975px;		
+}
+
 span {
-	font-size: 10px;
+	font-size: 20px;
 	color: white;	
 }
