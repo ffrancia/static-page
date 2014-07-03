@@ -1,5 +1,4 @@
-.headandfoot {
-	background-color:gray;
+.headandfoot {	background-color:gray;
 	height:160px;
 	width:200px;
 	font-family:sans-serif;
@@ -42,9 +41,19 @@
 	width:295px;		
 }
 
-#blog {border: 2px solid;
+#blog {
+	border: 2px;
+	border-color:gray;
+	border-style:solid none solid none;
     font-family:sans-serif;
 	font-size: 24px;
+	font-weight:bold;
 	height:34px 
-	width:975;}
+	width:975;
+}
 
+.sidebox {
+	background-color:gray;
+	height:200px;
+	width:230px;
+}
