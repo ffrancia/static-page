@@ -19,7 +19,7 @@
 	text-align:center;
 	background-color:#CC0000;
 	height:20px;
-	width:310px;
+	width:340px;
 	color: white;
 }
 
@@ -35,10 +35,11 @@
 	width:975px;
 }
 
-#gray_blocks {
+.gray_blocks {
 	background-color:gray;
 	height:90px;
-	width:295px;		
+	width:295px;
+	display:inline-block;		
 }
 
 #blog {
@@ -56,4 +57,5 @@
 	background-color:gray;
 	height:200px;
 	width:230px;
+	display:block;
 }
