@@ -1,4 +1,9 @@
-.headandfoot {	
+#bigbox {
+	height:1540px;
+	width:976px;
+}
+
+.headandfoot {
 	background-color:#AEAEAE;
 	height:160px;
 	width:200px;
@@ -11,7 +16,7 @@
 
 .headandfoot > span {
 	font-size: 20px;
-	color: white;	
+	color: white;
 }
 
 #menutop {
@@ -24,7 +29,8 @@
 	color: white;
 }
 
-#mainbox {
+#mainbox 
+{
 	background-color:#585858;
 	height:475px;
 	width:975px;
@@ -35,6 +41,8 @@
 	background-color:#CC0000;
 	height:10px;
 	width:975px;
+	margin-top:5px;
+	margin-bottom:5px
 }
 
 .gray_blocks {
@@ -51,7 +59,7 @@
     font-family:sans-serif;
 	font-size: 24px;
 	font-weight:bold;
-	height:34px 
+	height:34px;
 	width:975;
 }
 
@@ -60,4 +68,6 @@
 	height:200px;
 	width:230px;
 	display:block;
+	clear:both;
+	float:left;
 }
