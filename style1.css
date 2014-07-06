@@ -6,12 +6,11 @@
 .headandfoot {
 	background-color:#AEAEAE;
 	height:160px;
-	width:200px;
 	font-family:sans-serif;
 	font-size: 100px;
 	font-weight: bold;
 	text-align:center;
-	color: #CC0000;
+	color:#CC0000;
 }
 
 .headandfoot > span {
@@ -24,9 +23,11 @@
 	font-size:13px;
 	text-align:center;
 	background-color:#CC0000;
-	height:20px;
+	height:30px;
 	width:340px;
 	color: white;
+	margin-top:70px;
+	padding-top:12px;
 }
 
 #mainbox 
@@ -70,4 +71,24 @@
 	display:block;
 	clear:both;
 	float:left;
+}
+
+.content {
+	margin:5px 5px 5px 5px;
+	padding:2px 2px 2px 2px;
+}
+
+section {
+	display:inline;
+	float:left;
+}
+
+#searchetc {
+	display:inline;
+	position:absolute;
+	bottom:165px;
+	background color:red;
+	height:600px;
+	width:297px;
+	float:right;
 }
