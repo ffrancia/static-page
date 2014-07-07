@@ -30,8 +30,7 @@
 	padding-top:12px;
 }
 
-#mainbox 
-{
+#medbox_top	{
 	background-color:#585858;
 	height:475px;
 	width:975px;
@@ -85,10 +84,17 @@ section {
 
 #searchetc {
 	display:inline;
-	position:absolute;
-	bottom:165px;
-	background color:red;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+	border-top:none;
+	border-bottom:none;
 	height:600px;
 	width:297px;
 	float:right;
+	padding-left:5px;
+}
+
+button {
+	background-color:#AEAEAE;
+	color:#51514D;
 }
