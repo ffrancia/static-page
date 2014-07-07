@@ -84,8 +84,8 @@ section {
 
 #searchetc {
 	display:inline;
-	border-right:1px solid gray;
 	border-left:1px solid gray;
+	border-right:none;
 	border-top:none;
 	border-bottom:none;
 	height:600px;
