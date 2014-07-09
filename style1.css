@@ -80,6 +80,15 @@ footer {
 	font-weight:bold;
 	height:34px;
 	width:975;
+	padding-top:5px;
+}
+
+.blogimg {
+	margin-left:5px;
+}
+
+span {
+	float:right;
 }
 
 .sidebox {
@@ -93,7 +102,7 @@ footer {
 
 .content {
 	margin:5px;
-	padding:2px;
+	padding-left:5px;
 }
 
 .contenthead {
@@ -104,22 +113,23 @@ footer {
 	background-color:#CC0000;
 	color:white;
 	border:none;
+	margin-top:5px;
 }
 
 section {
 	display:inline;
 	float:left;
 	width:65%;
+	height:550px;
 }
 
 #searchetc {
 	display:inline;
 	border-left:1px solid gray;
-	height:600px;
+	height:550px;
 	width:297px;
 	float:right;
-	padding-left:5px;
-	padding-top:5px;
+	padding-left:8px;
 }
 
 button {
